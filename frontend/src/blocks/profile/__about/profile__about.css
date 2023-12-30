@@ -1,0 +1,21 @@
+.profile__about {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  grid-area: 2 / span 2;
+  max-width: 336px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  letter-spacing: 0em;
+}
+
+@media screen and (max-width: 900px) {
+  .profile__about {
+    font-size: 14px;
+    justify-self: center;
+    grid-area: 2 / span 2;
+    max-width: 282px;
+  }
+}

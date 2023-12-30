@@ -1,0 +1,15 @@
+.popup__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin: 0 auto;
+  width: 358px;
+}
+
+
+@media screen and (max-width:618px) {
+  .popup__content {
+    width: 238px;
+    row-gap: 0px;
+  }
+}

@@ -1,0 +1,18 @@
+.authorize__login-link {
+  color: white;
+  margin: 15px auto 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.authorize__login-link:hover {
+  opacity: 0.85;
+}
+
+@media screen and (max-width:618px) {
+  .authorize__login-link {
+    margin: 20px auto 0;
+  }
+}

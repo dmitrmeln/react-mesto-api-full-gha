@@ -1,0 +1,13 @@
+.authorize__heading {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0em;
+}
+
+@media screen and (max-width:618px) {
+  .authorize__heading {
+    font-size: 20px;
+  }
+}

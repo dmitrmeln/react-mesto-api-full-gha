@@ -1,0 +1,14 @@
+.authorize__form {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 358px;
+}
+
+@media screen and (max-width:618px) {
+  .authorize__form {
+    width: 260px;
+  }
+}

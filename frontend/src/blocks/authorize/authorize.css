@@ -1,0 +1,17 @@
+.authorize {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+  font-family: "Inter", Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  color: white;
+  min-height: 475px;
+}
+
+@media screen and (max-width:618px) {
+  .authorize {
+    margin-top: 40px;
+    min-height: 420px;
+  }
+}

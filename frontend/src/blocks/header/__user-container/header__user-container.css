@@ -1,0 +1,11 @@
+.header__user-container {
+  display: flex;
+  gap: 24px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header__user-container {
+    display: none;
+  }
+}

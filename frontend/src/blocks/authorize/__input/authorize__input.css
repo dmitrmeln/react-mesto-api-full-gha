@@ -1,0 +1,32 @@
+.authorize__input {
+  border: 0;
+  border-bottom: 2px solid rgba(204, 204, 204, 1);
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding-bottom: 13px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+
+.authorize__input:focus {
+  outline: none;
+}
+
+.authorize__input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+}
+
+.authorize__input:first-of-type {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 618px) {
+  .authorize__input:first-of-type {
+    margin-top: 40px;
+  }
+}

@@ -165,7 +165,6 @@ function App() {
   }
 
   function handleCardClick(card) {
-    console.log(card)
     setSelectedCard({
       id: card._id,
       src: card.link,

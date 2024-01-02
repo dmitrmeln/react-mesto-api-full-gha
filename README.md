@@ -11,6 +11,6 @@
 
 IP-адрес 51.250.84.52
 
-Frontend https://mestodmitrii.nomoredomainsmonster.ru/
+Frontend https://mestodmitri.nomoredomainsmonster.ru/
 
-Backend https://mestodmitrii.nomoredomainsmonster.ru/api/
+Backend https://api.mestodmitri.nomoredomainsmonster.ru/

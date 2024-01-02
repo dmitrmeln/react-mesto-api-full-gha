@@ -1,5 +1,5 @@
 const {
-  REACT_APP_API_URL='https://mestodmitrii.nomoredomainsmonster.ru/api/',
+  REACT_APP_API_URL='https://api.mestodmitri.nomoredomainsmonster.ru/',
 } = process.env;
 
 module.exports = {

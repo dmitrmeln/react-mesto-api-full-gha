@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(requestLogger);
-app.use(appRouter);
+app.use('/api/', appRouter);
 app.use(errorLogger);
 app.use(errors());
 app.use(errorsHandler);

@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.84.52
+IP 51.250.84.52
 
 Frontend https://mestodmitri.nomoredomainsmonster.ru/
 

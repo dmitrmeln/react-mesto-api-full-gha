@@ -1,9 +1,8 @@
 import { request } from "./requestHandler";
-
-const BASE_URL = "http://localhost:3000";
+const { REACT_APP_API_URL } = require('./config');
 
 export const register = (email, password) => {
-  return request(`${BASE_URL}/signup`, {
+  return request(`${REACT_APP_API_URL}/signup`, {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -14,7 +13,7 @@ export const register = (email, password) => {
 };
 
 export const authorize = (email, password) => {
-  return request(`${BASE_URL}/signin`, {
+  return request(`${REACT_APP_API_URL}/signin`, {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -25,7 +24,7 @@ export const authorize = (email, password) => {
 };
 
 export const tokenCheck = (token) => {
-  return request(`${BASE_URL}/users/me`, {
+  return request(`${REACT_APP_API_URL}/users/me`, {
     method: "GET",
     headers: {
       Accept: "application/json",

@@ -1,3 +1,5 @@
+const { REACT_APP_API_URL } = require('./config');
+
 class Api {
   constructor({baseUrl}) {
     this._baseUrl = baseUrl;
@@ -98,5 +100,5 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: "http://localhost:3000",
+  baseUrl: REACT_APP_API_URL,
 });
